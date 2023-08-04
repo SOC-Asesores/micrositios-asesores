@@ -1,0 +1,175 @@
+/*
+ * Custom code goes here.
+ */
+@import '../fonts/museo-sans/museo-sans.css';
+@import '../fonts/circular/circular.css';
+@import '../fonts/fontawesome/css/all.min.css';
+
+:root {
+	/* Colors: */
+	/*--primary-color: #015694;
+	--secundary-color: #4AA84F;*/
+	--primary-color: #006D4E;
+	--ligth-primary-color: #4ED176;
+	--secundary-color: #079DEF;
+	--ligth-secundary-color: #52DEFF;
+	--third-color: #FF7150;
+	--ligth-third-color: #FF9C9C;
+	--fourth-color: #FF9FCF;
+	--ligth-fourth-color: #FFBDDE;
+	
+	--skyblue-color: #2AB5DF;
+	--white-smoke-color: #F1F2F7;
+	--wet-asphalt-color: #40516F;
+	--nobel-color: #9B9A9A;
+}
+body{
+    font-family: 'Museo Sans', 'Montserrat', 'Muli', sans-serif;
+    font-family: 'Circular', 'Arial', sans-serif; }
+/*
+ * Colores
+ */
+
+.text-primary,
+.hover\:text-primary:hover{
+	color: var(--primary-color); }
+.bg-primary,
+.hover\:bg-primary:hover{
+	background-color: var(--primary-color); }
+.border-primary,
+.hover\:border-primary:hover{
+	border-color: var(--primary-color); }
+
+.text-ligth-primary,
+.hover\:text-ligth-primary:hover{
+	color: var(--ligth-primary-color); }
+.bg-ligth-primary,
+.hover\:bg-ligth-primary:hover{
+	background-color: var(--ligth-primary-color); }
+.border-ligth-primary,
+.hover\:border-ligth-primary:hover{
+	border-color: var(--ligth-primary-color); }
+
+.text-secundary,
+.hover\:text-secundary:hover{
+	color: var(--secundary-color); }
+.bg-secundary,
+.hover\:bg-secundary:hover{
+	background-color: var(--secundary-color); }
+.border-secundary,
+.hover\:border-secundary:hover{
+	border-color: var(--secundary-color); }
+
+.text-ligth-secundary,
+.hover\:text-ligth-secundary:hover{
+	color: var(--ligth-secundary-color); }
+.bg-ligth-secundary,
+.hover\:bg-ligth-secundary:hover{
+	background-color: var(--ligth-secundary-color); }
+.border-ligth-secundary,
+.hover\:border-ligth-secundary:hover{
+	border-color: var(--ligth-secundary-color); }
+
+.text-third,
+.hover\:text-third:hover{
+	color: var(--third-color); }
+.bg-third,
+.hover\:bg-third:hover{
+	background-color: var(--third-color); }
+.border-third,
+.hover\:border-third:hover{
+	border-color: var(--third-color); }
+
+.text-ligth-third,
+.hover\:text-ligth-third:hover{
+	color: var(--ligth-third-color); }
+.bg-ligth-third,
+.hover\:bg-ligth-third:hover{
+	background-color: var(--ligth-third-color); }
+.border-ligth-third,
+.hover\:border-ligth-third:hover{
+	border-color: var(--ligth-third-color); }
+
+.text-fourth,
+.hover\:text-fourth:hover{
+	color: var(--fourth-color); }
+.bg-fourth,
+.hover\:bg-fourth:hover{
+	background-color: var(--fourth-color); }
+.border-fourth,
+.hover\:border-fourth:hover{
+	border-color: var(--fourth-color); }
+
+.text-ligth-fourth,
+.hover\:text-ligth-fourth:hover{
+	color: var(--ligth-fourth-color); }
+.bg-ligth-fourth,
+.hover\:bg-ligth-fourth:hover{
+	background-color: var(--ligth-fourth-color); }
+.border-ligth-fourth,
+.hover\:border-ligth-fourth:hover{
+	border-color: var(--ligth-fourth-color); }
+	
+.text-skyblue{
+	color: var(--skyblue-color); }
+.bg-skyblue{
+	background-color: var(--skyblue-color); }
+.border-skyblue{
+	border-color: var(--skyblue-color); }
+.text-white-smoke{
+	color: var(--white-smoke-color); }
+.bg-white-smoke{
+	background-color: var(--white-smoke-color); }
+.border-white-smoke{
+	border-color: var(--white-smoke-color); }
+.text-wet-asphalt{
+	color: var(--wet-asphalt-color); }
+.bg-wet-asphalt{
+	background-color: var(--wet-asphalt-color); }
+.border-wet-asphalt{
+	border-color: var(--wet-asphalt-color); }
+.text-nobel{
+	color: var(--nobel-color); }
+.bg-nobel{
+	background-color: var(--nobel-color); }
+.border-nobel{
+	border-color: var(--nobel-color); }
+.gradient{
+	background-color: rgb(1,86,148);
+	background: -moz-linear-gradient(90deg, rgba(1,86,148,1) 0%, rgba(42,168,209,1) 50%, rgba(74,168,79,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(1,86,148,1) 0%, rgba(42,168,209,1) 50%, rgba(74,168,79,1) 100%);
+	background: linear-gradient(90deg, rgba(1,86,148,1) 0%, rgba(42,168,209,1) 50%, rgba(74,168,79,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#015694",endColorstr="#4aa84f",GradientType=1);
+}
+/*
+ * Custom code
+ */
+.main-description{
+    word-break:break-all;
+}
+ 
+.main-description p,
+.main-description ul{
+	margin-bottom: 1.25em;
+}
+.advisor-map iframe{
+	height: 100% !important;
+	width: 100% !important;
+	border: none;
+	line-height: 0;
+}
+.gallery-slider .slick-prev:before,
+.gallery-slider .slick-next:before {
+	color: var(--primary-color);
+}
+@media(max-width: 600px){
+	.md:w-auto.w-2/5.flex.items-center.f{
+		flex-direction: column;
+	    width: 58%;
+	    align-items: baseline;
+	}
+}
+
+svg g{
+    fill: var(--primary-color) !important;
+}

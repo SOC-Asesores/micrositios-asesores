@@ -1,0 +1,163 @@
+@import '../fonts/circular/circular.css';
+body{
+    font-family: 'Circular', 'Arial', sans-serif; 
+}
+h1{
+	color: #016D4E;
+	font-weight: bold;
+}
+h2{
+	color: #016D4E;
+	font-weight: normal;
+}
+p{
+	color: #4F5F7B;
+	font-size: 1.2rem;
+}
+header{
+	background: #016D4E;
+	padding: 1rem 0rem;
+}
+header ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+header ul li{
+	display: inline-block;
+	margin-left: 2rem;
+	vertical-align: middle;
+}
+header ul li a i{
+	color: #fff;
+	font-size: 2.5rem;
+}
+main{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+figure g{
+	fill: #4ED176;
+}
+.contacto-target{
+	border: 1px solid #4DD176;
+	border-radius: 15px;
+}
+.profile-asesor{
+	width: 255px;
+	height: 255px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin-bottom: 3rem;
+	border-radius: 100%;
+}
+.menu-asesor{
+	list-style: none;
+	padding-left: 0;
+}
+.menu-asesor li{
+	display: block;
+	margin-bottom: 1rem;
+}
+.menu-asesor li a{
+	color: #059DEF;
+	font-size: 1.5rem;
+}
+.menu-asesor li a.select{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.info-asesor h2{
+	margin-bottom: 4rem;
+}
+.info-asesor .col-lg-5 a{
+	color: #016D4E;
+	text-decoration: underline;
+	font-size: 1.3rem;
+}
+.descripcion-asesor h3{
+	background: #4ED176;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.75rem;
+	padding: .3rem 0;
+}
+.descripcion-asesor ul{
+	list-style: none;
+	padding-left: 0;
+}
+.descripcion-asesor ul li{
+	display: inline-block;
+	background: #FAFAFA;
+	text-align: center;
+    margin: 0.7rem;
+    border: 2px solid #4ED176;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #4F5F7B;
+    padding: 0.5rem 0.75rem;
+}
+.descripcion-asesor.empresarial h3{
+	background: #51DEFF;
+}
+.descripcion-asesor.empresarial ul li{
+	border: 2px solid #51DEFF;
+}
+.descripcion-asesor.seguros h3{
+	background: #FF9FCF;
+}
+.descripcion-asesor.seguros ul li{
+	border: 2px solid #FF9FCF;
+	min-width: 300px;
+}
+.descripcion-asesor.auto h3{
+	background: #FF7250;
+}
+.descripcion-asesor.auto ul li{
+	border: 2px solid #FF7250;
+	min-width: 300px;
+}
+.button-h{
+	margin-top: 3rem;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.7rem;
+	background: #049DEF;
+	text-decoration: underline;
+	padding: 1rem 2rem;
+	display: inline-block;
+}
+.button-h:hover{
+	color: #fff;
+}
+footer{
+	background: #f1f2f7;
+	padding: 1.5rem 0;
+}
+footer ul{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 1rem;
+}
+footer ul li a i{
+	color: #fff;
+	font-size: 1.5rem;
+	padding: .4rem;
+	border-radius: 100%;
+	background: #4DD176;
+	min-width: 36px;
+    min-height: 36px;
+    text-align: center;
+}
+.contacto-target{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
